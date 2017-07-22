@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CameraBasedCheckActivity">
+
+    <item android:id="@+id/action_rgba"
+        android:title="Preview"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_facedetect"
+        android:title="Fingerpad"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_track"
+        android:title="Track"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_pattern"
+        android:title="Track"
+        app:showAsAction="ifRoom" />
+
+</menu>
